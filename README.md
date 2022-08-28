@@ -27,6 +27,7 @@ npm run dev
 ```
 npm run start
 ```
+### Версія Node.js v16.14.1
 
 [Отримати повну інформацію по використанню АПІ](https://documenter.getpostman.com/view/11043215/VUxKT9fk)
 ![image](https://user-images.githubusercontent.com/98615658/187085033-1a5dcb5f-68b7-497a-a835-a2ecfd5556fc.png)
