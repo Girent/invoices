@@ -5,20 +5,20 @@ const transactionSchema = new Schema({
   transactionType: {
     type: String,
     required: true,
-    maxLenght: 50
+    maxLenght: 50,
   },
 
   amount: {
     type: Number,
-    required: true
+    required: true,
   },
 
   createdAt: {
     type: Date,
     immutable: true,
     default: () => Date.now(),
-  }
-})
+  },
+});
 
 const userSchema = new Schema({
   wallet: {
@@ -35,4 +35,4 @@ const userSchema = new Schema({
   },
 });
 
-module.exports = mongoose.model("users", userSchema),transactionSchema;
+(module.exports = mongoose.model("users", userSchema)), transactionSchema;
